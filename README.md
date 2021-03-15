@@ -6,6 +6,8 @@ ONE SHOT AI Assignment :
 4. Working things :
     i) Add a college to the database
     ii) Displaying all the list of Colleges
-4. The components are created using Ant Design
+   
+5. The components are created using Ant Design
+6. Added a search button but still debugging it
 
 *** Not finished yet. Will keep on working ***
