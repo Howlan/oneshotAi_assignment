@@ -27,7 +27,7 @@ const AddCollege = () => {
     };
 
     const addCollege = () => {
-        Axios.post('http://localhost:3001/addCollege', 
+        Axios.post('https://onshotai-test-server.herokuapp.com/addCollege', 
             {
                 name : name,
                 id : id,
@@ -53,7 +53,7 @@ const AddCollege = () => {
     };
 
     useEffect(() => {
-        Axios.get('http://localhost:3001/read').then(
+        Axios.get('https://onshotai-test-server.herokuapp.com/read').then(
             (response) => { 
                 setListOfColleges(response.data);
             }).catch(
